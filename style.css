@@ -9,12 +9,24 @@ html{
 .container{
     width: 80%;
     margin: 0 auto 0 auto;
+    max-width: 1900px;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: flex-start;
+    width: 80%;
+    margin: 0 auto 0 auto;
+    max-width: 1900px;
 }
 
 h1{
     font-size: 64px;
     font-weight: 700;
     color: #13366D;
+    margin-block-end: 0;
 }
 
 h2{
@@ -153,6 +165,7 @@ footer{
 
 .section1_left_top_p{
     padding-right: 30px;
+    line-height: 30px;
 }
 
 .section1_left_mid{
@@ -205,6 +218,7 @@ footer{
 
 .section2_box p{
     padding: 0 32px;
+    line-height: 165%;
     color: #A2A2A2;
 }
 
@@ -242,23 +256,12 @@ footer{
     left: -35px;
 }
 
-.section3_box1_h2{
-    position: relative;
-    bottom: -5px;
-}
-
-.section3_box2_h2{
-    position: relative;
-    bottom: -10px;
-}
-
-.section3_box3_h2{
-    position: relative;
-    bottom: -120px;
-}
-
 .section3_box p{
     color: black;
+}
+
+.section3_box_p{
+    flex-grow: 1;
 }
 
 .section3_box4{
